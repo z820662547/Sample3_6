@@ -22,7 +22,7 @@ public class MainActivity extends Activity {
 		DisplayMetrics dm=new DisplayMetrics();
 		getWindowManager().getDefaultDisplay().getMetrics(dm);
 		screenWidth=dm.widthPixels;
-		screenHeight=dm.heightPixels-80;
+		screenHeight=dm.heightPixels-80; 
 		
 	}
 
